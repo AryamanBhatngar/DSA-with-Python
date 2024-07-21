@@ -1,0 +1,27 @@
+data = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+import numpy as np
+
+# Sample dataset
+data = np.array([10, 15, 20, 25, 30, 35, 40, 45, 50, 55])
+
+# Compute aggregate functions
+mean_value = np.mean(data)
+median_value = np.median(data)
+min_value = np.min(data)
+max_value = np.max(data)
+std_value = np.std(data)
+var_value = np.var(data)
+sum_value = np.sum(data)
+
+(mean_value, median_value, min_value, max_value, std_value, var_value, sum_value)
+ x=input("Enter the name: ")
+w=" "
+for i in x:
+    w=i+w
+
+print(w)
+
+if(x==w):
+    print("Yes")
+else: 
+    print("No")
